@@ -1,0 +1,105 @@
+[global_config]
+  extra_styling = False
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+  tab_position = hidden
+  title_font = Sans 6
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#c17c7d"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default2]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = d80564d6-b151-44c4-bfb7-48d6897f906f
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:42
+      size = 3840, 2049
+      title = ashao@aos-d3qplc2: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1917
+      ratio = 0.5
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 1021
+      ratio = 0.499755978526
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = Atom
+      type = Terminal
+      uuid = d80564d6-b151-44c4-bfb7-48d6897f906f
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = Atom
+      type = Terminal
+      uuid = e5c3c481-47bd-481a-86b1-7abffea0be2b
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = Atom
+      type = Terminal
+      uuid = 4ebcf41b-9b90-4258-987d-6c72141407de
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#161719"
+    cursor_color = "#d0d0d0"
+    font = Inconsolata Medium 10
+    foreground_color = "#ffffff"
+    palette = "#000000:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#000000:#fd5ff1:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+    scrollback_infinite = True
+    use_system_font = False
+  [[Atom]]
+    background_color = "#161719"
+    cursor_color = "#d0d0d0"
+    font = Inconsolata Medium 10
+    foreground_color = "#ffffff"
+    palette = "#000000:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#000000:#fd5ff1:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+    scrollback_infinite = True
+    use_system_font = False
+  [[Ciapre]]
+    background_color = "#191c27"
+    cursor_color = "#92805b"
+    foreground_color = "#aea47a"
+    palette = "#181818:#810009:#48513b:#cc8b3f:#576d8c:#724d7c:#5c4f4b:#aea47f:#555555:#ac3835:#a6a75d:#dcdf7c:#3097c6:#d33061:#f3dbb2:#f4f4f4"
+    use_system_font = False
+  [[Solarized Dark Higher Contrast]]
+    background_color = "#001e27"
+    cursor_color = "#f34b00"
+    foreground_color = "#ffffff"
+    palette = "#002831:#d11c24:#6cbe6c:#a57706:#2176c7:#c61c6f:#259286:#eae3cb:#006488:#f5163b:#51ef84:#b27e28:#178ec8:#e24d8e:#00b39e:#fcf4dc"
+  [[default2]]
+    background_color = "#1e1e1e"
+    cursor_color = "#edcf4f"
+    foreground_color = "#f7f6ec"
+    palette = "#343935:#cf3f61:#7bb75b:#e9b32a:#4c9ad4:#a57fc4:#389aad:#fafaf6:#595b59:#d18fa6:#767f2c:#78592f:#135979:#604291:#76bbca:#b2b5ae"
+    scrollback_infinite = True
+    use_system_font = False
+  [[default3]]
+    background_color = "#3f3f3f"
+    cursor_color = "#dcdcdc"
+    font = Inconsolata Medium 11
+    foreground_color = "#dcdcdc"
+    palette = "#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc:#3f3f3f:#cc9393:#7f9f7f:#e3ceab:#dfaf8f:#cc9393:#8cd0d3:#dcdccc"
+    scrollback_infinite = True
+    use_system_font = False
